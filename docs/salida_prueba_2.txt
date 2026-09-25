@@ -1,0 +1,45 @@
+SISTEMA INTELIGENTE DE RUTAS - TRANSMETRO
+Modelo academico de la Troncal Murillo
+Los tiempos usados son estimaciones para fines de demostracion.
+
+
+ESTACIONES DISPONIBLES
+ 1. Portal de Soledad
+ 2. Pacho Galan
+ 3. Pedro Ramaya Beltran
+ 4. Joaquin Barrios Polo
+ 5. Buenos Aires
+ 6. La Ocho
+ 7. La Catorce
+ 8. La Veintiuna
+ 9. Atlantico
+10. Chiquinquira
+11. La Arenosa
+
+Seleccione el numero de la estacion de origen: Seleccione el numero de la estacion de destino: 
+--- Busqueda de costo uniforme ---
+Ruta: Pacho Galan -> Pedro Ramaya Beltran -> Joaquin Barrios Polo -> Buenos Aires -> La Catorce -> Atlantico
+Costo total estimado: 18 minutos
+Nodos expandidos: 9
+Tramos:
+  Pacho Galan -> Pedro Ramaya Beltran: 3 min (corriente)
+  Pedro Ramaya Beltran -> Joaquin Barrios Polo: 4 min (corriente)
+  Joaquin Barrios Polo -> Buenos Aires: 3 min (corriente)
+  Buenos Aires -> La Catorce: 4 min (expreso simulado)
+  La Catorce -> Atlantico: 4 min (expreso simulado)
+
+--- Busqueda A* ---
+Ruta: Pacho Galan -> Pedro Ramaya Beltran -> Joaquin Barrios Polo -> Buenos Aires -> La Catorce -> Atlantico
+Costo total estimado: 18 minutos
+Nodos expandidos: 8
+Tramos:
+  Pacho Galan -> Pedro Ramaya Beltran: 3 min (corriente)
+  Pedro Ramaya Beltran -> Joaquin Barrios Polo: 4 min (corriente)
+  Joaquin Barrios Polo -> Buenos Aires: 3 min (corriente)
+  Buenos Aires -> La Catorce: 4 min (expreso simulado)
+  La Catorce -> Atlantico: 4 min (expreso simulado)
+
+COMPARACION
+Costo uniforme expandio 9 nodos.
+A* expandio 8 nodos.
+A* fue mas eficiente para esta consulta al usar informacion heuristica.
