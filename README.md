@@ -17,6 +17,7 @@ El caso de estudio utiliza estaciones reales de la **Troncal Murillo de Transmet
 - Búsqueda heurística A*.
 - Función heurística basada en la posición relativa de las estaciones.
 - Comparación de nodos expandidos por cada estrategia.
+- Interfaz gráfica desarrollada con Tkinter.
 - Pruebas unitarias con `unittest`.
 
 ## Regla lógica usada
@@ -41,6 +42,7 @@ En Python estas reglas se representan mediante la clase `ReglaConexion` definida
 
 ```text
 sistema-inteligente-transmetro/
+|-- interfaz.py
 |-- main.py
 |-- requirements.txt
 |-- README.md
@@ -61,10 +63,35 @@ sistema-inteligente-transmetro/
 
 - Python 3.10 o superior.
 - No se requieren librerías externas.
+- La interfaz gráfica utiliza **Tkinter**, incluido normalmente con Python.
 
-## Ejecución
+## Ejecutar la interfaz gráfica
 
 Desde la carpeta raíz del proyecto:
+
+```bash
+python interfaz.py
+```
+
+En Windows también puede utilizarse:
+
+```bash
+py interfaz.py
+```
+
+La interfaz permite:
+
+- Seleccionar una estación de origen.
+- Seleccionar una estación de destino.
+- Calcular la mejor ruta.
+- Visualizar el costo estimado.
+- Comparar los nodos expandidos por costo uniforme y A*.
+- Consultar el detalle de cada tramo.
+- Visualizar un esquema académico de la ruta encontrada.
+
+## Ejecución por consola
+
+La versión de consola continúa disponible con:
 
 ```bash
 python main.py
@@ -107,6 +134,9 @@ Contiene las estaciones, la representación de las reglas y la construcción del
 
 ### `src/busqueda.py`
 Implementa búsqueda de costo uniforme, A*, heurística y reconstrucción de rutas.
+
+### `interfaz.py`
+Interfaz gráfica en Tkinter para seleccionar estaciones, calcular rutas, comparar los algoritmos y visualizar los resultados.
 
 ### `main.py`
 Interfaz de consola y comparación de resultados.
