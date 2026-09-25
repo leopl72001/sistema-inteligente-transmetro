@@ -17,7 +17,9 @@ El caso de estudio utiliza estaciones reales de la **Troncal Murillo de Transmet
 - Búsqueda heurística A*.
 - Función heurística basada en la posición relativa de las estaciones.
 - Comparación de nodos expandidos por cada estrategia.
-- Interfaz gráfica desarrollada con Tkinter.
+- Interfaz gráfica moderna desarrollada con Tkinter.
+- Mapa visual de estaciones y animación de la ruta encontrada.
+- Comparación gráfica entre costo uniforme y A*.
 - Pruebas unitarias con `unittest`.
 
 ## Regla lógica usada
@@ -81,13 +83,16 @@ py interfaz.py
 
 La interfaz permite:
 
-- Seleccionar una estación de origen.
-- Seleccionar una estación de destino.
-- Calcular la mejor ruta.
-- Visualizar el costo estimado.
-- Comparar los nodos expandidos por costo uniforme y A*.
+- Seleccionar una estación de origen y destino.
+- Intercambiar rápidamente las estaciones seleccionadas.
+- Utilizar rutas de demostración preconfiguradas.
+- Calcular la mejor ruta con costo uniforme y A*.
+- Ver el costo estimado y la cantidad de nodos expandidos.
+- Comparar visualmente la eficiencia de ambos algoritmos.
 - Consultar el detalle de cada tramo.
-- Visualizar un esquema académico de la ruta encontrada.
+- Visualizar la red de estaciones sobre un mapa esquemático.
+- Ver la ruta resaltada progresivamente mediante una animación.
+- Observar un punto animado recorriendo la ruta calculada.
 
 ## Ejecución por consola
 
@@ -136,7 +141,7 @@ Contiene las estaciones, la representación de las reglas y la construcción del
 Implementa búsqueda de costo uniforme, A*, heurística y reconstrucción de rutas.
 
 ### `interfaz.py`
-Interfaz gráfica en Tkinter para seleccionar estaciones, calcular rutas, comparar los algoritmos y visualizar los resultados.
+Interfaz gráfica en Tkinter para seleccionar estaciones, calcular rutas, comparar algoritmos y visualizar el recorrido de forma animada.
 
 ### `main.py`
 Interfaz de consola y comparación de resultados.
