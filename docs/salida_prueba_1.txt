@@ -1,0 +1,43 @@
+SISTEMA INTELIGENTE DE RUTAS - TRANSMETRO
+Modelo academico de la Troncal Murillo
+Los tiempos usados son estimaciones para fines de demostracion.
+
+
+ESTACIONES DISPONIBLES
+ 1. Portal de Soledad
+ 2. Pacho Galan
+ 3. Pedro Ramaya Beltran
+ 4. Joaquin Barrios Polo
+ 5. Buenos Aires
+ 6. La Ocho
+ 7. La Catorce
+ 8. La Veintiuna
+ 9. Atlantico
+10. Chiquinquira
+11. La Arenosa
+
+Seleccione el numero de la estacion de origen: Seleccione el numero de la estacion de destino: 
+--- Busqueda de costo uniforme ---
+Ruta: Portal de Soledad -> Buenos Aires -> La Catorce -> Atlantico -> La Arenosa
+Costo total estimado: 23 minutos
+Nodos expandidos: 11
+Tramos:
+  Portal de Soledad -> Buenos Aires: 10 min (expreso simulado)
+  Buenos Aires -> La Catorce: 4 min (expreso simulado)
+  La Catorce -> Atlantico: 4 min (expreso simulado)
+  Atlantico -> La Arenosa: 5 min (expreso simulado)
+
+--- Busqueda A* ---
+Ruta: Portal de Soledad -> Buenos Aires -> La Catorce -> Atlantico -> La Arenosa
+Costo total estimado: 23 minutos
+Nodos expandidos: 11
+Tramos:
+  Portal de Soledad -> Buenos Aires: 10 min (expreso simulado)
+  Buenos Aires -> La Catorce: 4 min (expreso simulado)
+  La Catorce -> Atlantico: 4 min (expreso simulado)
+  Atlantico -> La Arenosa: 5 min (expreso simulado)
+
+COMPARACION
+Costo uniforme expandio 11 nodos.
+A* expandio 11 nodos.
+Ambos algoritmos expandieron la misma cantidad de nodos en esta consulta.
