@@ -1,0 +1,421 @@
+id,origen,destino,numero_paradas,hora,hora_pico,tipo_dia,pasajeros,lluvia,incidente,tiempo_base_min,demora_min,estado_servicio
+1,Pedro Ramaya Beltran,Portal de Soledad,2,9,0,Habil,60,1,0,9.2,4.8,Critico
+2,Chiquinquira,Atlantico,1,11,0,Sabado,45,0,0,6.6,2.0,Normal
+3,La Arenosa,Pacho Galan,9,19,1,Domingo,52,0,0,27.4,5.1,Demorado
+4,Chiquinquira,La Arenosa,1,8,1,Sabado,63,0,0,6.6,5.1,Normal
+5,La Arenosa,Portal de Soledad,10,14,0,Habil,73,0,1,30.0,24.3,Critico
+6,La Ocho,La Arenosa,5,16,1,Domingo,74,1,0,17.0,9.6,Demorado
+7,Joaquin Barrios Polo,La Arenosa,7,14,0,Domingo,34,0,0,22.2,6.2,Normal
+8,La Ocho,La Veintiuna,2,12,0,Habil,53,1,0,9.2,7.1,Normal
+9,Chiquinquira,La Veintiuna,2,13,0,Sabado,20,1,0,9.2,2.6,Normal
+10,La Arenosa,La Veintiuna,3,20,0,Habil,51,1,0,11.8,2.9,Normal
+11,Buenos Aires,La Catorce,2,8,1,Sabado,96,0,0,9.2,12.0,Demorado
+12,Pacho Galan,Buenos Aires,3,9,0,Habil,39,0,0,11.8,4.9,Normal
+13,La Catorce,Pedro Ramaya Beltran,4,10,0,Habil,69,0,0,14.4,2.5,Normal
+14,Portal de Soledad,La Catorce,6,20,0,Sabado,47,0,0,19.6,2.6,Normal
+15,Chiquinquira,Joaquin Barrios Polo,6,11,0,Domingo,20,0,0,19.6,3.6,Normal
+16,La Catorce,Pacho Galan,5,16,1,Habil,109,0,0,17.0,12.9,Demorado
+17,Joaquin Barrios Polo,Buenos Aires,1,14,0,Habil,50,0,0,6.6,3.1,Normal
+18,Pacho Galan,La Veintiuna,6,9,0,Domingo,30,0,0,19.6,5.5,Normal
+19,Portal de Soledad,Atlantico,8,6,1,Sabado,103,0,0,24.8,10.8,Demorado
+20,Pacho Galan,Buenos Aires,3,13,0,Habil,58,0,0,11.8,1.5,Normal
+21,Joaquin Barrios Polo,Pacho Galan,2,14,0,Domingo,71,0,0,9.2,3.0,Normal
+22,La Catorce,La Arenosa,4,22,0,Sabado,52,1,0,14.4,2.8,Normal
+23,Pacho Galan,Atlantico,7,20,0,Habil,59,0,0,22.2,3.0,Normal
+24,Pacho Galan,Atlantico,7,13,0,Habil,59,1,0,22.2,4.9,Normal
+25,Buenos Aires,Pedro Ramaya Beltran,2,11,0,Habil,51,1,0,9.2,2.3,Demorado
+26,Buenos Aires,La Veintiuna,3,22,0,Habil,44,1,0,11.8,2.8,Normal
+27,Buenos Aires,Pedro Ramaya Beltran,2,15,0,Sabado,60,0,0,9.2,2.0,Normal
+28,La Veintiuna,Portal de Soledad,7,18,1,Habil,70,0,0,22.2,5.6,Normal
+29,Pacho Galan,Portal de Soledad,1,14,0,Domingo,40,0,0,6.6,1.7,Normal
+30,La Catorce,Buenos Aires,2,5,0,Sabado,14,0,0,9.2,4.7,Demorado
+31,Portal de Soledad,Chiquinquira,9,9,0,Habil,43,0,0,27.4,2.5,Normal
+32,Joaquin Barrios Polo,Chiquinquira,6,16,1,Habil,119,0,0,19.6,12.6,Demorado
+33,La Ocho,Chiquinquira,4,19,1,Sabado,59,0,0,14.4,3.1,Normal
+34,Portal de Soledad,La Veintiuna,7,20,0,Habil,45,0,0,22.2,6.3,Normal
+35,Portal de Soledad,La Arenosa,10,6,1,Habil,89,0,0,30.0,4.2,Normal
+36,Buenos Aires,La Veintiuna,3,11,0,Sabado,47,0,0,11.8,5.7,Normal
+37,La Arenosa,Buenos Aires,6,5,0,Habil,74,1,0,19.6,8.6,Demorado
+38,La Ocho,Chiquinquira,4,11,0,Habil,54,1,0,14.4,1.8,Normal
+39,La Catorce,Buenos Aires,2,22,0,Habil,39,0,0,9.2,3.3,Normal
+40,Atlantico,La Ocho,3,21,0,Sabado,53,0,0,11.8,0.9,Normal
+41,La Arenosa,Joaquin Barrios Polo,7,7,1,Sabado,62,0,0,22.2,5.6,Normal
+42,Pedro Ramaya Beltran,Chiquinquira,7,21,0,Habil,52,0,0,22.2,1.3,Normal
+43,Joaquin Barrios Polo,La Arenosa,7,8,1,Domingo,91,0,0,22.2,3.6,Normal
+44,Chiquinquira,La Ocho,4,22,0,Domingo,63,1,0,14.4,0.5,Normal
+45,Buenos Aires,Joaquin Barrios Polo,1,17,1,Habil,79,0,1,6.6,23.1,Critico
+46,La Ocho,Joaquin Barrios Polo,2,6,1,Habil,112,0,0,9.2,11.0,Demorado
+47,Joaquin Barrios Polo,La Catorce,3,10,0,Habil,76,0,0,11.8,2.8,Normal
+48,Joaquin Barrios Polo,Atlantico,5,5,0,Sabado,46,1,0,17.0,6.3,Normal
+49,Portal de Soledad,Pacho Galan,1,9,0,Domingo,43,1,0,6.6,1.2,Normal
+50,Pacho Galan,Atlantico,7,17,1,Habil,58,1,1,22.2,22.8,Critico
+51,La Veintiuna,Pedro Ramaya Beltran,5,5,0,Habil,65,0,0,17.0,2.0,Normal
+52,La Ocho,Chiquinquira,4,19,1,Sabado,86,0,0,14.4,6.9,Normal
+53,Portal de Soledad,Atlantico,8,17,1,Habil,111,1,0,24.8,12.2,Demorado
+54,Pedro Ramaya Beltran,Buenos Aires,2,22,0,Domingo,47,0,0,9.2,4.5,Normal
+55,Chiquinquira,La Catorce,3,11,0,Habil,30,0,1,11.8,13.0,Demorado
+56,Atlantico,La Ocho,3,10,0,Habil,32,0,0,11.8,5.3,Normal
+57,La Arenosa,Pedro Ramaya Beltran,8,18,1,Sabado,62,1,0,24.8,5.8,Demorado
+58,Pedro Ramaya Beltran,Portal de Soledad,2,8,1,Habil,93,0,0,9.2,8.1,Normal
+59,Chiquinquira,La Catorce,3,5,0,Habil,41,1,0,11.8,2.9,Normal
+60,Chiquinquira,La Catorce,3,16,1,Domingo,76,0,0,11.8,4.5,Normal
+61,La Catorce,Chiquinquira,3,17,1,Sabado,59,0,1,11.8,21.2,Critico
+62,La Veintiuna,Joaquin Barrios Polo,4,22,0,Habil,77,0,0,14.4,3.4,Normal
+63,La Arenosa,Pedro Ramaya Beltran,8,8,1,Habil,76,0,1,24.8,21.7,Critico
+64,Joaquin Barrios Polo,La Arenosa,7,18,1,Sabado,87,1,0,22.2,11.5,Demorado
+65,Atlantico,La Veintiuna,1,19,1,Habil,116,0,0,6.6,10.7,Demorado
+66,Atlantico,Buenos Aires,4,20,0,Habil,58,0,1,14.4,15.7,Demorado
+67,Buenos Aires,La Veintiuna,3,18,1,Habil,108,0,0,11.8,8.4,Demorado
+68,Buenos Aires,Pacho Galan,3,5,0,Habil,89,0,0,11.8,4.6,Normal
+69,La Ocho,Portal de Soledad,5,9,0,Habil,45,0,0,17.0,0.0,Normal
+70,La Ocho,Pedro Ramaya Beltran,3,6,1,Domingo,53,0,0,11.8,1.9,Normal
+71,La Veintiuna,La Arenosa,3,8,1,Domingo,84,0,0,11.8,3.8,Normal
+72,La Arenosa,La Catorce,4,11,0,Habil,60,0,0,14.4,4.0,Demorado
+73,Pacho Galan,Atlantico,7,21,0,Habil,60,0,1,22.2,13.5,Demorado
+74,Portal de Soledad,Chiquinquira,9,6,1,Sabado,84,0,0,27.4,4.9,Normal
+75,Portal de Soledad,Chiquinquira,9,21,0,Sabado,29,0,0,27.4,3.7,Normal
+76,La Catorce,La Arenosa,4,16,1,Habil,102,0,0,14.4,10.9,Demorado
+77,Joaquin Barrios Polo,Pedro Ramaya Beltran,1,5,0,Habil,34,0,0,6.6,2.1,Normal
+78,La Arenosa,Atlantico,2,12,0,Habil,64,0,0,9.2,3.5,Normal
+79,La Arenosa,Atlantico,2,9,0,Habil,46,0,0,9.2,8.1,Demorado
+80,Pacho Galan,Joaquin Barrios Polo,2,17,1,Habil,117,1,0,9.2,10.0,Demorado
+81,La Catorce,La Ocho,1,22,0,Habil,45,0,0,6.6,2.6,Normal
+82,Portal de Soledad,Buenos Aires,4,22,0,Sabado,60,0,1,14.4,13.9,Demorado
+83,Atlantico,Portal de Soledad,8,12,0,Sabado,33,0,0,24.8,3.3,Normal
+84,Pacho Galan,Portal de Soledad,1,9,0,Domingo,10,1,1,6.6,24.9,Critico
+85,Atlantico,La Ocho,3,6,1,Domingo,37,0,0,11.8,2.4,Normal
+86,Chiquinquira,La Catorce,3,14,0,Sabado,37,0,0,11.8,2.6,Normal
+87,Atlantico,Buenos Aires,4,5,0,Habil,55,0,0,14.4,2.0,Normal
+88,La Ocho,La Catorce,1,16,1,Sabado,44,0,0,6.6,0.8,Normal
+89,La Catorce,La Arenosa,4,11,0,Habil,82,0,0,14.4,1.8,Normal
+90,Pacho Galan,Chiquinquira,8,11,0,Habil,48,0,0,24.8,1.8,Normal
+91,Pacho Galan,Joaquin Barrios Polo,2,5,0,Habil,62,1,0,9.2,2.4,Normal
+92,Chiquinquira,Atlantico,1,17,1,Habil,82,0,0,6.6,0.9,Normal
+93,Chiquinquira,Portal de Soledad,9,22,0,Habil,32,0,0,27.4,3.9,Normal
+94,Pacho Galan,Chiquinquira,8,5,0,Habil,38,0,1,24.8,12.4,Demorado
+95,Chiquinquira,Pacho Galan,8,11,0,Habil,47,0,0,24.8,1.6,Normal
+96,La Arenosa,La Ocho,5,21,0,Habil,54,1,0,17.0,2.7,Critico
+97,Portal de Soledad,La Veintiuna,7,7,1,Habil,84,1,0,22.2,14.1,Demorado
+98,Joaquin Barrios Polo,Pacho Galan,2,8,1,Habil,69,1,0,9.2,10.8,Demorado
+99,Pedro Ramaya Beltran,Joaquin Barrios Polo,1,12,0,Habil,50,1,0,6.6,0.3,Normal
+100,Chiquinquira,Pedro Ramaya Beltran,7,15,0,Habil,59,1,0,22.2,3.2,Normal
+101,La Ocho,Atlantico,3,21,0,Habil,51,0,0,11.8,3.8,Critico
+102,Atlantico,Pacho Galan,7,16,1,Sabado,81,1,0,22.2,13.7,Demorado
+103,La Ocho,Buenos Aires,1,18,1,Habil,123,0,0,6.6,10.4,Demorado
+104,Pedro Ramaya Beltran,Joaquin Barrios Polo,1,14,0,Sabado,64,0,0,6.6,2.9,Normal
+105,Portal de Soledad,Atlantico,8,12,0,Sabado,19,1,0,24.8,6.0,Normal
+106,La Arenosa,La Catorce,4,11,0,Habil,85,0,0,14.4,2.2,Normal
+107,Atlantico,La Arenosa,2,22,0,Habil,61,0,0,9.2,2.2,Normal
+108,La Ocho,Chiquinquira,4,16,1,Habil,94,0,0,14.4,3.6,Normal
+109,La Ocho,Buenos Aires,1,19,1,Habil,120,0,1,6.6,21.7,Critico
+110,Buenos Aires,Joaquin Barrios Polo,1,14,0,Habil,77,0,0,6.6,1.3,Normal
+111,La Catorce,Buenos Aires,2,20,0,Habil,56,0,0,9.2,2.8,Critico
+112,Buenos Aires,La Veintiuna,3,19,1,Habil,102,0,0,11.8,14.3,Demorado
+113,Portal de Soledad,Pacho Galan,1,16,1,Domingo,96,1,1,6.6,24.3,Critico
+114,La Veintiuna,Chiquinquira,2,14,0,Sabado,61,1,0,9.2,5.5,Normal
+115,Pedro Ramaya Beltran,Joaquin Barrios Polo,1,14,0,Habil,92,1,0,6.6,11.1,Normal
+116,Joaquin Barrios Polo,Portal de Soledad,3,12,0,Habil,60,0,0,11.8,3.1,Normal
+117,Portal de Soledad,La Arenosa,10,8,1,Habil,109,1,0,30.0,11.7,Demorado
+118,Pedro Ramaya Beltran,Atlantico,6,13,0,Habil,54,0,0,19.6,4.6,Normal
+119,Portal de Soledad,La Veintiuna,7,16,1,Sabado,79,0,0,22.2,4.9,Normal
+120,Buenos Aires,La Catorce,2,22,0,Habil,50,1,0,9.2,0.0,Normal
+121,Portal de Soledad,La Veintiuna,7,13,0,Habil,49,1,0,22.2,3.6,Demorado
+122,La Catorce,La Veintiuna,1,15,0,Sabado,39,0,0,6.6,2.4,Normal
+123,Atlantico,La Veintiuna,1,10,0,Habil,83,0,0,6.6,4.7,Normal
+124,Portal de Soledad,Pedro Ramaya Beltran,2,10,0,Habil,43,0,0,9.2,0.0,Normal
+125,Atlantico,La Catorce,2,5,0,Domingo,37,0,0,9.2,6.7,Normal
+126,La Ocho,La Veintiuna,2,11,0,Domingo,32,0,1,9.2,12.0,Demorado
+127,La Ocho,Portal de Soledad,5,5,0,Habil,42,0,0,17.0,2.4,Normal
+128,La Arenosa,La Veintiuna,3,11,0,Habil,85,0,0,11.8,3.5,Normal
+129,Chiquinquira,Pacho Galan,8,13,0,Domingo,12,1,1,24.8,23.0,Critico
+130,Pedro Ramaya Beltran,Buenos Aires,2,20,0,Domingo,30,0,0,9.2,1.7,Normal
+131,Chiquinquira,La Arenosa,1,19,1,Habil,105,0,0,6.6,9.2,Demorado
+132,Portal de Soledad,La Veintiuna,7,19,1,Domingo,92,1,0,22.2,13.7,Demorado
+133,Pedro Ramaya Beltran,Portal de Soledad,2,7,1,Habil,121,0,0,9.2,12.1,Demorado
+134,La Ocho,Portal de Soledad,5,7,1,Habil,94,1,0,17.0,12.9,Demorado
+135,Portal de Soledad,Joaquin Barrios Polo,3,6,1,Habil,102,0,0,11.8,13.6,Demorado
+136,La Ocho,Pacho Galan,4,13,0,Habil,34,0,1,14.4,9.7,Demorado
+137,La Catorce,Pacho Galan,5,16,1,Habil,103,0,1,17.0,24.2,Critico
+138,La Veintiuna,La Arenosa,3,20,0,Habil,76,1,0,11.8,14.8,Demorado
+139,Joaquin Barrios Polo,Chiquinquira,6,15,0,Habil,64,1,0,19.6,4.8,Normal
+140,Portal de Soledad,La Veintiuna,7,19,1,Habil,80,0,0,22.2,0.0,Normal
+141,Atlantico,La Catorce,2,7,1,Sabado,89,0,0,9.2,6.3,Normal
+142,Atlantico,La Ocho,3,14,0,Habil,59,0,0,11.8,6.5,Normal
+143,La Catorce,Pacho Galan,5,16,1,Habil,97,0,0,17.0,7.2,Demorado
+144,La Ocho,Pacho Galan,4,22,0,Sabado,28,1,0,14.4,4.2,Normal
+145,La Arenosa,Pedro Ramaya Beltran,8,20,0,Habil,65,0,0,24.8,4.5,Normal
+146,La Veintiuna,Portal de Soledad,7,18,1,Domingo,94,1,0,22.2,12.8,Demorado
+147,Pedro Ramaya Beltran,Joaquin Barrios Polo,1,7,1,Sabado,70,0,0,6.6,6.5,Normal
+148,La Veintiuna,Pedro Ramaya Beltran,5,21,0,Domingo,21,0,0,17.0,3.1,Normal
+149,Chiquinquira,Joaquin Barrios Polo,6,12,0,Habil,76,0,0,19.6,3.7,Normal
+150,Buenos Aires,Portal de Soledad,4,20,0,Habil,82,0,1,14.4,20.8,Critico
+151,Chiquinquira,Buenos Aires,5,11,0,Sabado,53,0,0,17.0,4.9,Normal
+152,La Veintiuna,La Catorce,1,16,1,Habil,72,0,0,6.6,1.1,Demorado
+153,Buenos Aires,Joaquin Barrios Polo,1,19,1,Habil,80,0,0,6.6,3.1,Normal
+154,Portal de Soledad,Buenos Aires,4,10,0,Habil,65,0,0,14.4,3.3,Normal
+155,Buenos Aires,Pacho Galan,3,11,0,Domingo,47,0,0,11.8,3.8,Normal
+156,La Catorce,La Veintiuna,1,15,0,Habil,55,1,0,6.6,5.9,Normal
+157,Pacho Galan,La Ocho,4,8,1,Domingo,65,0,0,14.4,3.8,Critico
+158,Portal de Soledad,Joaquin Barrios Polo,3,9,0,Habil,58,0,0,11.8,5.2,Critico
+159,Pedro Ramaya Beltran,La Catorce,4,20,0,Habil,65,1,0,14.4,4.2,Normal
+160,Pacho Galan,Pedro Ramaya Beltran,1,14,0,Sabado,43,0,0,6.6,0.1,Normal
+161,Portal de Soledad,Buenos Aires,4,19,1,Habil,99,0,0,14.4,12.1,Demorado
+162,La Catorce,Buenos Aires,2,13,0,Habil,37,0,0,9.2,4.5,Normal
+163,Chiquinquira,La Arenosa,1,9,0,Habil,67,0,0,6.6,2.1,Normal
+164,Joaquin Barrios Polo,Atlantico,5,21,0,Habil,59,1,0,17.0,4.1,Normal
+165,Buenos Aires,Pacho Galan,3,22,0,Habil,30,0,0,11.8,0.1,Normal
+166,Atlantico,Pacho Galan,7,15,0,Domingo,35,0,0,22.2,2.9,Normal
+167,Atlantico,Buenos Aires,4,6,1,Habil,102,1,0,14.4,11.3,Demorado
+168,La Arenosa,Pedro Ramaya Beltran,8,13,0,Sabado,33,0,0,24.8,4.5,Normal
+169,La Ocho,Pedro Ramaya Beltran,3,21,0,Sabado,44,0,0,11.8,2.7,Normal
+170,Chiquinquira,La Arenosa,1,8,1,Habil,121,0,1,6.6,24.8,Critico
+171,Joaquin Barrios Polo,Atlantico,5,9,0,Habil,59,0,0,17.0,0.7,Normal
+172,Pacho Galan,Pedro Ramaya Beltran,1,6,1,Habil,109,0,0,6.6,10.2,Demorado
+173,Chiquinquira,Pedro Ramaya Beltran,7,15,0,Sabado,60,1,0,22.2,3.2,Normal
+174,La Catorce,La Ocho,1,18,1,Sabado,86,1,0,6.6,8.8,Demorado
+175,La Veintiuna,Atlantico,1,13,0,Habil,25,1,0,6.6,5.3,Normal
+176,Joaquin Barrios Polo,La Catorce,3,7,1,Habil,122,0,1,11.8,24.3,Critico
+177,Pedro Ramaya Beltran,Chiquinquira,7,22,0,Sabado,42,0,0,22.2,4.6,Normal
+178,Buenos Aires,Pacho Galan,3,18,1,Domingo,45,0,0,11.8,5.0,Normal
+179,La Veintiuna,La Ocho,2,11,0,Habil,50,0,1,9.2,10.1,Demorado
+180,Pacho Galan,Pedro Ramaya Beltran,1,18,1,Habil,120,0,0,6.6,7.8,Demorado
+181,Atlantico,La Arenosa,2,8,1,Habil,81,1,1,9.2,25.5,Critico
+182,La Veintiuna,La Arenosa,3,12,0,Habil,56,1,1,11.8,20.0,Critico
+183,Atlantico,La Arenosa,2,20,0,Habil,75,0,0,9.2,7.0,Normal
+184,Buenos Aires,La Veintiuna,3,14,0,Sabado,47,0,0,11.8,4.2,Normal
+185,La Veintiuna,Portal de Soledad,7,12,0,Habil,22,0,0,22.2,2.8,Normal
+186,Pedro Ramaya Beltran,Chiquinquira,7,8,1,Habil,89,0,0,22.2,4.4,Normal
+187,Chiquinquira,La Arenosa,1,15,0,Habil,47,0,0,6.6,4.3,Normal
+188,Joaquin Barrios Polo,La Catorce,3,10,0,Habil,12,0,0,11.8,4.8,Normal
+189,Portal de Soledad,Buenos Aires,4,16,1,Habil,65,0,0,14.4,0.0,Normal
+190,Buenos Aires,Portal de Soledad,4,15,0,Habil,43,1,0,14.4,4.2,Normal
+191,La Arenosa,La Veintiuna,3,7,1,Domingo,97,0,0,11.8,12.3,Demorado
+192,Joaquin Barrios Polo,Portal de Soledad,3,22,0,Habil,69,0,0,11.8,5.9,Normal
+193,Chiquinquira,Buenos Aires,5,21,0,Habil,57,0,0,17.0,9.0,Normal
+194,La Ocho,Joaquin Barrios Polo,2,21,0,Habil,83,0,0,9.2,5.0,Normal
+195,La Ocho,Chiquinquira,4,14,0,Sabado,11,0,0,14.4,1.1,Normal
+196,Atlantico,Chiquinquira,1,14,0,Habil,62,0,0,6.6,4.8,Normal
+197,Atlantico,Buenos Aires,4,7,1,Habil,74,0,1,14.4,21.5,Critico
+198,Pacho Galan,Buenos Aires,3,10,0,Habil,68,1,0,11.8,2.2,Normal
+199,Pacho Galan,Pedro Ramaya Beltran,1,10,0,Sabado,36,0,0,6.6,1.4,Normal
+200,Buenos Aires,Portal de Soledad,4,10,0,Habil,52,0,0,14.4,8.7,Normal
+201,La Ocho,Pedro Ramaya Beltran,3,13,0,Habil,51,1,0,11.8,3.7,Normal
+202,La Arenosa,Buenos Aires,6,10,0,Habil,62,0,0,19.6,1.9,Normal
+203,La Veintiuna,Joaquin Barrios Polo,4,11,0,Habil,66,1,0,14.4,4.6,Normal
+204,Chiquinquira,Pacho Galan,8,13,0,Habil,74,0,0,24.8,2.6,Normal
+205,La Arenosa,Buenos Aires,6,15,0,Habil,62,1,0,19.6,4.1,Normal
+206,Pacho Galan,Portal de Soledad,1,8,1,Domingo,62,0,0,6.6,0.3,Normal
+207,La Ocho,Joaquin Barrios Polo,2,18,1,Habil,92,0,0,9.2,6.9,Normal
+208,Joaquin Barrios Polo,Pedro Ramaya Beltran,1,11,0,Habil,41,0,0,6.6,5.5,Normal
+209,La Arenosa,Atlantico,2,14,0,Habil,35,0,1,9.2,8.7,Demorado
+210,Atlantico,Portal de Soledad,8,16,1,Habil,87,0,0,24.8,2.9,Normal
+211,La Ocho,La Veintiuna,2,15,0,Domingo,22,1,0,9.2,3.9,Normal
+212,Chiquinquira,Pacho Galan,8,21,0,Habil,80,0,0,24.8,3.7,Normal
+213,Portal de Soledad,Atlantico,8,9,0,Sabado,15,0,0,24.8,0.8,Normal
+214,Portal de Soledad,Pacho Galan,1,18,1,Sabado,86,0,0,6.6,5.3,Normal
+215,Joaquin Barrios Polo,La Veintiuna,4,7,1,Domingo,63,0,0,14.4,0.0,Normal
+216,Chiquinquira,La Ocho,4,11,0,Habil,78,0,0,14.4,7.8,Normal
+217,Atlantico,Chiquinquira,1,13,0,Habil,13,0,0,6.6,2.2,Normal
+218,La Veintiuna,Atlantico,1,20,0,Domingo,36,0,0,6.6,3.0,Normal
+219,La Veintiuna,La Catorce,1,15,0,Habil,52,0,0,6.6,3.8,Normal
+220,Portal de Soledad,Atlantico,8,7,1,Habil,94,0,0,24.8,1.9,Normal
+221,La Veintiuna,Pedro Ramaya Beltran,5,17,1,Habil,102,0,0,17.0,9.6,Demorado
+222,Joaquin Barrios Polo,Atlantico,5,17,1,Domingo,79,1,0,17.0,15.6,Demorado
+223,La Ocho,Portal de Soledad,5,6,1,Habil,93,1,0,17.0,13.2,Demorado
+224,Buenos Aires,Joaquin Barrios Polo,1,12,0,Habil,71,1,0,6.6,15.6,Demorado
+225,Buenos Aires,Portal de Soledad,4,17,1,Habil,90,0,0,14.4,4.1,Normal
+226,Atlantico,La Catorce,2,18,1,Habil,106,0,1,9.2,21.8,Critico
+227,La Ocho,Chiquinquira,4,21,0,Domingo,10,0,0,14.4,3.5,Normal
+228,La Veintiuna,Pedro Ramaya Beltran,5,18,1,Sabado,66,0,0,17.0,2.5,Critico
+229,La Ocho,La Arenosa,5,15,0,Domingo,33,0,0,17.0,2.4,Normal
+230,Pacho Galan,La Catorce,5,5,0,Habil,65,0,0,17.0,4.7,Normal
+231,Atlantico,La Veintiuna,1,17,1,Habil,101,1,0,6.6,9.3,Demorado
+232,Joaquin Barrios Polo,Atlantico,5,21,0,Habil,51,0,0,17.0,5.0,Normal
+233,La Veintiuna,Joaquin Barrios Polo,4,17,1,Habil,99,0,0,14.4,8.0,Demorado
+234,Pacho Galan,Pedro Ramaya Beltran,1,16,1,Sabado,73,1,0,6.6,15.3,Demorado
+235,Buenos Aires,Joaquin Barrios Polo,1,21,0,Sabado,50,0,1,6.6,9.6,Demorado
+236,La Ocho,Chiquinquira,4,14,0,Habil,67,1,1,14.4,25.9,Critico
+237,Pedro Ramaya Beltran,La Arenosa,8,20,0,Habil,45,0,0,24.8,4.0,Normal
+238,Buenos Aires,Joaquin Barrios Polo,1,9,0,Habil,88,1,0,6.6,13.3,Demorado
+239,Portal de Soledad,Atlantico,8,19,1,Sabado,50,0,0,24.8,4.6,Normal
+240,Joaquin Barrios Polo,Pacho Galan,2,15,0,Domingo,10,0,0,9.2,2.3,Normal
+241,La Ocho,La Arenosa,5,21,0,Habil,32,1,0,17.0,2.5,Normal
+242,Portal de Soledad,Pacho Galan,1,21,0,Domingo,50,0,0,6.6,1.8,Demorado
+243,Pacho Galan,La Veintiuna,6,7,1,Sabado,68,1,0,19.6,10.0,Demorado
+244,Pacho Galan,Portal de Soledad,1,6,1,Habil,73,0,0,6.6,4.1,Normal
+245,Portal de Soledad,La Arenosa,10,9,0,Sabado,43,0,0,30.0,0.5,Normal
+246,La Ocho,Pacho Galan,4,13,0,Habil,39,0,0,14.4,7.4,Normal
+247,La Veintiuna,La Ocho,2,7,1,Sabado,98,1,1,9.2,23.1,Critico
+248,La Catorce,La Ocho,1,9,0,Habil,36,0,0,6.6,0.3,Normal
+249,La Veintiuna,La Catorce,1,22,0,Domingo,61,0,0,6.6,1.3,Normal
+250,Pacho Galan,La Catorce,5,5,0,Habil,51,0,1,17.0,12.4,Demorado
+251,La Veintiuna,Joaquin Barrios Polo,4,6,1,Habil,80,1,1,14.4,20.1,Demorado
+252,Joaquin Barrios Polo,Portal de Soledad,3,10,0,Domingo,35,0,0,11.8,3.7,Normal
+253,La Ocho,Portal de Soledad,5,7,1,Habil,99,0,0,17.0,11.3,Critico
+254,Pacho Galan,La Veintiuna,6,20,0,Habil,26,0,0,19.6,2.3,Normal
+255,La Catorce,Chiquinquira,3,22,0,Habil,70,0,0,11.8,1.3,Normal
+256,Portal de Soledad,Atlantico,8,7,1,Habil,76,1,1,24.8,25.7,Critico
+257,La Ocho,Chiquinquira,4,8,1,Sabado,89,0,0,14.4,4.9,Normal
+258,La Veintiuna,Pacho Galan,6,8,1,Habil,85,1,1,19.6,23.0,Critico
+259,Pedro Ramaya Beltran,Chiquinquira,7,13,0,Habil,62,0,0,22.2,3.5,Normal
+260,La Ocho,La Catorce,1,22,0,Habil,85,0,0,6.6,4.0,Normal
+261,Pacho Galan,Portal de Soledad,1,7,1,Habil,127,0,0,6.6,14.7,Demorado
+262,Atlantico,Pedro Ramaya Beltran,6,8,1,Habil,112,0,0,19.6,11.4,Demorado
+263,Joaquin Barrios Polo,Chiquinquira,6,14,0,Habil,56,1,0,19.6,4.2,Normal
+264,Atlantico,Buenos Aires,4,21,0,Habil,78,0,0,14.4,6.6,Normal
+265,La Arenosa,La Veintiuna,3,16,1,Habil,89,0,0,11.8,4.2,Normal
+266,Joaquin Barrios Polo,Chiquinquira,6,6,1,Habil,93,0,1,19.6,24.0,Critico
+267,Chiquinquira,Pacho Galan,8,21,0,Habil,17,1,0,24.8,3.2,Normal
+268,Buenos Aires,La Veintiuna,3,8,1,Domingo,24,1,0,11.8,11.2,Demorado
+269,La Veintiuna,La Ocho,2,16,1,Domingo,67,0,0,9.2,5.8,Normal
+270,Chiquinquira,Joaquin Barrios Polo,6,13,0,Habil,65,1,0,19.6,2.2,Normal
+271,La Veintiuna,Portal de Soledad,7,12,0,Habil,59,0,1,22.2,10.1,Demorado
+272,Atlantico,La Ocho,3,11,0,Sabado,26,1,0,11.8,5.9,Normal
+273,Portal de Soledad,Joaquin Barrios Polo,3,20,0,Habil,40,0,0,11.8,4.2,Normal
+274,Joaquin Barrios Polo,Pacho Galan,2,18,1,Habil,111,0,0,9.2,12.4,Demorado
+275,Buenos Aires,La Veintiuna,3,21,0,Habil,71,0,0,11.8,3.0,Normal
+276,La Catorce,Joaquin Barrios Polo,3,22,0,Habil,49,0,0,11.8,3.1,Critico
+277,Atlantico,Buenos Aires,4,19,1,Habil,121,1,0,14.4,12.4,Demorado
+278,Pedro Ramaya Beltran,La Veintiuna,5,17,1,Habil,92,1,0,17.0,12.5,Demorado
+279,Pacho Galan,Chiquinquira,8,6,1,Sabado,110,0,0,24.8,14.0,Demorado
+280,La Catorce,Chiquinquira,3,21,0,Habil,58,0,0,11.8,0.0,Normal
+281,Buenos Aires,La Catorce,2,18,1,Domingo,75,0,0,9.2,5.1,Normal
+282,Pacho Galan,Portal de Soledad,1,5,0,Habil,40,1,0,6.6,2.6,Normal
+283,Pedro Ramaya Beltran,La Arenosa,8,5,0,Habil,63,0,0,24.8,6.6,Normal
+284,Pacho Galan,La Ocho,4,18,1,Habil,128,1,1,14.4,22.4,Critico
+285,La Veintiuna,Atlantico,1,19,1,Sabado,52,0,0,6.6,3.4,Normal
+286,Portal de Soledad,Pedro Ramaya Beltran,2,9,0,Habil,33,1,0,9.2,6.2,Normal
+287,La Catorce,La Ocho,1,17,1,Domingo,67,0,0,6.6,3.9,Normal
+288,Portal de Soledad,Pedro Ramaya Beltran,2,7,1,Habil,62,0,0,9.2,4.1,Normal
+289,La Arenosa,Joaquin Barrios Polo,7,20,0,Habil,43,0,0,22.2,6.2,Normal
+290,Pacho Galan,La Veintiuna,6,11,0,Habil,75,0,1,19.6,18.3,Critico
+291,La Veintiuna,Joaquin Barrios Polo,4,21,0,Sabado,27,0,0,14.4,5.2,Normal
+292,Buenos Aires,La Veintiuna,3,16,1,Domingo,63,0,0,11.8,1.9,Normal
+293,Pedro Ramaya Beltran,La Veintiuna,5,14,0,Habil,13,1,1,17.0,22.0,Critico
+294,Portal de Soledad,La Ocho,5,7,1,Sabado,57,1,1,17.0,23.2,Critico
+295,Atlantico,La Ocho,3,19,1,Habil,62,0,0,11.8,3.7,Normal
+296,Joaquin Barrios Polo,La Ocho,2,9,0,Sabado,23,0,0,9.2,1.8,Demorado
+297,La Catorce,La Ocho,1,15,0,Habil,66,0,0,6.6,0.0,Normal
+298,Chiquinquira,Buenos Aires,5,17,1,Habil,87,0,0,17.0,5.4,Normal
+299,La Veintiuna,La Arenosa,3,18,1,Domingo,87,0,0,11.8,3.9,Normal
+300,Pacho Galan,La Catorce,5,9,0,Habil,59,0,0,17.0,6.4,Normal
+301,Buenos Aires,La Veintiuna,3,5,0,Sabado,82,0,0,11.8,4.6,Normal
+302,La Catorce,Pedro Ramaya Beltran,4,20,0,Domingo,43,0,0,14.4,6.5,Critico
+303,Joaquin Barrios Polo,Chiquinquira,6,16,1,Habil,115,1,0,19.6,11.7,Demorado
+304,La Veintiuna,Joaquin Barrios Polo,4,12,0,Habil,91,1,0,14.4,12.1,Demorado
+305,Pedro Ramaya Beltran,La Arenosa,8,20,0,Habil,58,0,0,24.8,7.7,Normal
+306,La Ocho,La Veintiuna,2,9,0,Habil,54,0,0,9.2,4.5,Normal
+307,La Ocho,Joaquin Barrios Polo,2,15,0,Habil,46,0,1,9.2,9.6,Demorado
+308,La Arenosa,La Veintiuna,3,19,1,Domingo,49,0,0,11.8,6.9,Normal
+309,Chiquinquira,Portal de Soledad,9,14,0,Sabado,50,0,0,27.4,0.9,Normal
+310,Pedro Ramaya Beltran,Pacho Galan,1,8,1,Sabado,73,0,0,6.6,5.7,Normal
+311,La Veintiuna,Buenos Aires,3,5,0,Habil,30,0,0,11.8,3.5,Normal
+312,La Arenosa,Atlantico,2,15,0,Habil,26,0,0,9.2,0.0,Normal
+313,Atlantico,Joaquin Barrios Polo,5,10,0,Habil,90,0,1,17.0,23.5,Critico
+314,Atlantico,La Arenosa,2,5,0,Habil,38,0,0,9.2,3.4,Normal
+315,Pedro Ramaya Beltran,Atlantico,6,19,1,Domingo,47,1,0,19.6,11.3,Demorado
+316,La Catorce,Pacho Galan,5,7,1,Habil,89,1,0,17.0,14.4,Demorado
+317,La Catorce,Pacho Galan,5,21,0,Habil,32,0,0,17.0,3.1,Normal
+318,Joaquin Barrios Polo,La Veintiuna,4,19,1,Sabado,57,0,0,14.4,4.1,Normal
+319,Atlantico,La Arenosa,2,19,1,Domingo,53,1,0,9.2,11.7,Demorado
+320,La Ocho,Buenos Aires,1,22,0,Habil,33,0,0,6.6,5.9,Normal
+321,Portal de Soledad,Pedro Ramaya Beltran,2,21,0,Habil,54,0,0,9.2,6.7,Normal
+322,La Catorce,La Veintiuna,1,20,0,Domingo,23,1,0,6.6,5.2,Normal
+323,Portal de Soledad,Joaquin Barrios Polo,3,20,0,Habil,51,0,0,11.8,2.5,Normal
+324,Pedro Ramaya Beltran,Buenos Aires,2,12,0,Habil,52,0,0,9.2,2.5,Normal
+325,Portal de Soledad,La Ocho,5,20,0,Sabado,44,0,0,17.0,3.1,Normal
+326,La Veintiuna,Pedro Ramaya Beltran,5,15,0,Habil,42,0,0,17.0,1.2,Normal
+327,Atlantico,Chiquinquira,1,20,0,Domingo,63,0,0,6.6,3.4,Normal
+328,Buenos Aires,Pacho Galan,3,17,1,Habil,80,0,0,11.8,6.4,Normal
+329,La Arenosa,Buenos Aires,6,14,0,Domingo,56,0,1,19.6,14.4,Demorado
+330,Pacho Galan,Buenos Aires,3,13,0,Habil,60,1,0,11.8,2.4,Normal
+331,Pacho Galan,Joaquin Barrios Polo,2,11,0,Habil,31,0,0,9.2,5.3,Normal
+332,Pedro Ramaya Beltran,Buenos Aires,2,18,1,Habil,109,0,0,9.2,16.0,Demorado
+333,La Ocho,Buenos Aires,1,11,0,Habil,63,0,0,6.6,8.0,Normal
+334,Buenos Aires,La Ocho,1,20,0,Habil,65,0,0,6.6,7.1,Normal
+335,La Ocho,La Arenosa,5,20,0,Domingo,63,1,0,17.0,0.8,Normal
+336,La Catorce,La Veintiuna,1,9,0,Habil,30,0,0,6.6,2.8,Normal
+337,Joaquin Barrios Polo,Pacho Galan,2,11,0,Habil,58,0,0,9.2,1.1,Normal
+338,Joaquin Barrios Polo,La Ocho,2,6,1,Domingo,64,0,0,9.2,6.3,Normal
+339,Portal de Soledad,Atlantico,8,21,0,Domingo,22,0,0,24.8,1.4,Normal
+340,Atlantico,Pacho Galan,7,10,0,Habil,50,0,0,22.2,4.8,Normal
+341,La Veintiuna,Atlantico,1,13,0,Sabado,30,1,0,6.6,3.6,Normal
+342,La Ocho,La Catorce,1,14,0,Habil,58,0,0,6.6,2.8,Normal
+343,La Arenosa,La Ocho,5,20,0,Habil,78,0,0,17.0,5.5,Normal
+344,La Veintiuna,Joaquin Barrios Polo,4,6,1,Habil,71,0,0,14.4,7.7,Normal
+345,Pedro Ramaya Beltran,La Veintiuna,5,20,0,Habil,75,0,0,17.0,1.7,Normal
+346,Atlantico,La Arenosa,2,16,1,Domingo,53,0,0,9.2,0.8,Normal
+347,Buenos Aires,Portal de Soledad,4,20,0,Sabado,63,0,1,14.4,13.4,Demorado
+348,La Catorce,Joaquin Barrios Polo,3,9,0,Domingo,65,1,0,11.8,2.6,Normal
+349,Buenos Aires,Portal de Soledad,4,13,0,Sabado,48,0,0,14.4,5.1,Normal
+350,La Catorce,Buenos Aires,2,6,1,Habil,89,1,0,9.2,10.8,Demorado
+351,Pacho Galan,La Catorce,5,20,0,Sabado,62,0,0,17.0,5.6,Normal
+352,Portal de Soledad,Pacho Galan,1,12,0,Habil,82,0,0,6.6,3.2,Normal
+353,Portal de Soledad,Atlantico,8,6,1,Habil,41,1,0,24.8,10.2,Demorado
+354,La Ocho,Buenos Aires,1,11,0,Domingo,59,1,0,6.6,4.7,Normal
+355,Chiquinquira,La Ocho,4,12,0,Habil,15,1,0,14.4,1.1,Normal
+356,Joaquin Barrios Polo,Pacho Galan,2,21,0,Sabado,40,0,0,9.2,2.6,Normal
+357,Buenos Aires,La Arenosa,6,5,0,Habil,43,0,0,19.6,0.0,Normal
+358,Pedro Ramaya Beltran,Portal de Soledad,2,17,1,Sabado,43,1,0,9.2,9.6,Demorado
+359,Joaquin Barrios Polo,La Veintiuna,4,17,1,Habil,111,0,0,14.4,8.4,Demorado
+360,Pedro Ramaya Beltran,Chiquinquira,7,13,0,Domingo,46,1,0,22.2,4.4,Normal
+361,La Veintiuna,La Arenosa,3,12,0,Habil,48,1,0,11.8,1.5,Normal
+362,Pedro Ramaya Beltran,Buenos Aires,2,18,1,Domingo,89,0,0,9.2,5.4,Normal
+363,Chiquinquira,Portal de Soledad,9,15,0,Sabado,10,0,0,27.4,1.9,Normal
+364,La Arenosa,La Catorce,4,8,1,Habil,106,1,0,14.4,12.5,Demorado
+365,Joaquin Barrios Polo,La Ocho,2,11,0,Habil,27,0,0,9.2,9.0,Normal
+366,Buenos Aires,Joaquin Barrios Polo,1,5,0,Habil,77,0,0,6.6,0.0,Normal
+367,Pacho Galan,La Ocho,4,19,1,Habil,92,0,0,14.4,0.7,Normal
+368,La Arenosa,Pedro Ramaya Beltran,8,16,1,Sabado,109,0,0,24.8,11.3,Demorado
+369,Pedro Ramaya Beltran,Joaquin Barrios Polo,1,16,1,Habil,86,0,0,6.6,4.9,Normal
+370,La Arenosa,La Veintiuna,3,17,1,Sabado,77,1,0,11.8,12.0,Demorado
+371,Pedro Ramaya Beltran,Buenos Aires,2,9,0,Habil,88,1,0,9.2,11.7,Demorado
+372,La Veintiuna,Pacho Galan,6,15,0,Habil,38,0,1,19.6,9.5,Demorado
+373,La Ocho,Portal de Soledad,5,15,0,Habil,46,1,0,17.0,1.0,Normal
+374,Pedro Ramaya Beltran,Pacho Galan,1,18,1,Habil,86,0,0,6.6,3.5,Normal
+375,La Veintiuna,Portal de Soledad,7,7,1,Habil,83,0,0,22.2,5.0,Normal
+376,La Arenosa,La Ocho,5,12,0,Habil,47,0,1,17.0,11.3,Demorado
+377,Atlantico,La Veintiuna,1,10,0,Habil,79,0,0,6.6,5.3,Normal
+378,La Veintiuna,La Ocho,2,20,0,Habil,61,0,0,9.2,5.7,Normal
+379,Portal de Soledad,Pacho Galan,1,10,0,Habil,60,0,0,6.6,4.9,Normal
+380,Pedro Ramaya Beltran,La Arenosa,8,10,0,Habil,46,0,0,24.8,2.4,Normal
+381,La Catorce,Chiquinquira,3,6,1,Habil,92,0,0,11.8,0.9,Normal
+382,La Ocho,La Veintiuna,2,22,0,Habil,64,0,0,9.2,5.4,Normal
+383,La Ocho,Pacho Galan,4,22,0,Habil,33,0,0,14.4,6.1,Normal
+384,La Arenosa,Chiquinquira,1,10,0,Habil,50,0,0,6.6,4.4,Normal
+385,Chiquinquira,Portal de Soledad,9,5,0,Habil,55,0,1,27.4,14.9,Demorado
+386,La Arenosa,Portal de Soledad,10,17,1,Habil,85,0,0,30.0,4.3,Normal
+387,La Catorce,La Ocho,1,5,0,Habil,41,0,0,6.6,3.9,Normal
+388,Portal de Soledad,Chiquinquira,9,15,0,Habil,22,1,0,27.4,7.2,Normal
+389,Chiquinquira,Atlantico,1,21,0,Sabado,32,1,0,6.6,3.6,Normal
+390,Portal de Soledad,Pedro Ramaya Beltran,2,12,0,Habil,42,0,0,9.2,0.9,Normal
+391,Chiquinquira,La Veintiuna,2,7,1,Habil,75,0,0,9.2,4.5,Normal
+392,La Catorce,La Ocho,1,13,0,Habil,56,0,0,6.6,2.3,Normal
+393,La Ocho,La Veintiuna,2,7,1,Sabado,79,0,0,9.2,4.0,Normal
+394,La Ocho,Buenos Aires,1,14,0,Habil,74,1,0,6.6,13.3,Demorado
+395,La Catorce,La Arenosa,4,9,0,Habil,42,0,1,14.4,10.1,Demorado
+396,Chiquinquira,Joaquin Barrios Polo,6,14,0,Habil,75,0,0,19.6,2.7,Normal
+397,Pacho Galan,Joaquin Barrios Polo,2,9,0,Habil,73,0,0,9.2,1.9,Normal
+398,Buenos Aires,Pacho Galan,3,17,1,Habil,91,0,1,11.8,23.4,Critico
+399,Buenos Aires,La Veintiuna,3,18,1,Habil,86,0,1,11.8,26.0,Critico
+400,La Arenosa,Atlantico,2,6,1,Habil,104,0,0,9.2,12.8,Demorado
+401,La Ocho,Portal de Soledad,5,21,0,Domingo,35,0,0,17.0,0.0,Normal
+402,Buenos Aires,Pacho Galan,3,21,0,Habil,49,0,0,11.8,3.7,Normal
+403,Joaquin Barrios Polo,Buenos Aires,1,15,0,Habil,16,0,0,6.6,6.7,Normal
+404,La Catorce,Portal de Soledad,6,12,0,Habil,61,0,1,19.6,14.9,Demorado
+405,Joaquin Barrios Polo,La Arenosa,7,22,0,Habil,56,0,0,22.2,6.8,Normal
+406,La Veintiuna,Pacho Galan,6,18,1,Habil,78,0,0,19.6,3.9,Normal
+407,La Catorce,La Veintiuna,1,16,1,Sabado,96,1,0,6.6,11.8,Demorado
+408,Portal de Soledad,Pedro Ramaya Beltran,2,13,0,Domingo,22,1,0,9.2,3.8,Normal
+409,Buenos Aires,Pedro Ramaya Beltran,2,13,0,Habil,41,0,0,9.2,1.9,Normal
+410,La Ocho,Portal de Soledad,5,12,0,Habil,38,0,0,17.0,3.7,Normal
+411,Atlantico,La Ocho,3,6,1,Habil,101,0,0,11.8,8.2,Demorado
+412,Pacho Galan,Atlantico,7,16,1,Habil,103,0,0,22.2,7.4,Demorado
+413,La Veintiuna,Buenos Aires,3,9,0,Domingo,54,0,0,11.8,2.3,Normal
+414,La Arenosa,Portal de Soledad,10,21,0,Habil,22,0,0,30.0,3.0,Normal
+415,Pedro Ramaya Beltran,Atlantico,6,12,0,Domingo,23,0,0,19.6,5.0,Normal
+416,La Veintiuna,Pacho Galan,6,11,0,Habil,56,0,0,19.6,2.8,Normal
+417,La Arenosa,La Ocho,5,6,1,Domingo,100,0,0,17.0,13.8,Demorado
+418,La Veintiuna,La Catorce,1,21,0,Habil,37,0,0,6.6,1.8,Normal
+419,Pacho Galan,La Ocho,4,13,0,Habil,58,0,0,14.4,0.0,Normal
+420,Atlantico,La Ocho,3,19,1,Habil,57,1,0,11.8,15.0,Demorado
