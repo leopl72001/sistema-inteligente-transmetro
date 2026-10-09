@@ -6,6 +6,10 @@ Continuación del proyecto académico de transporte masivo desarrollado con Tran
 
 Desarrollar un modelo de aprendizaje supervisado que clasifique el estado de un recorrido como Normal, Demorado o Critico mediante un árbol de decisión.
 
+## Compatibilidad
+
+La versión actual del modelo está implementada con la biblioteca estándar de Python y no depende de pandas, scikit-learn ni matplotlib. Esto permite ejecutarla incluso en equipos donde las políticas de seguridad de Windows bloquean extensiones binarias instaladas dentro de entornos virtuales.
+
 ## Estructura
 
     actividad_5_supervisado/
@@ -24,17 +28,18 @@ Desarrollar un modelo de aprendizaje supervisado que clasifique el estado de un 
     │   └── README.md
     └── requirements.txt
 
-## Instalacion
-
-    pip install -r actividad_5_supervisado/requirements.txt
-
 ## Ejecutar modelo
 
 Desde la raíz del repositorio:
 
     python actividad_5_supervisado/src/modelo_supervisado.py
 
-El programa entrena el árbol, evalúa el conjunto de prueba y genera la matriz de confusión, visualización del árbol, reporte de clasificación y archivo de predicciones.
+El programa entrena un árbol de decisión con profundidad máxima 5, divide los datos de forma estratificada en 75 % entrenamiento y 25 % prueba, calcula las métricas y genera:
+
+- reporte_clasificacion.txt
+- predicciones_prueba.csv
+- matriz_confusion.svg
+- arbol_decision.svg
 
 ## Ejecutar pruebas
 
@@ -42,13 +47,13 @@ El programa entrena el árbol, evalúa el conjunto de prueba y genera la matriz 
 
 ## Dataset
 
-El conjunto contiene 420 registros sintéticos. Los datos fueron creados con fines académicos porque el proyecto no dispone de una fuente histórica oficial con todas las variables requeridas. La generación es reproducible mediante src/generar_dataset.py.
+El conjunto contiene 420 registros sintéticos. Los datos fueron creados con fines académicos porque el proyecto no dispone de una fuente histórica oficial con todas las variables requeridas.
 
-La variable demora_min es descriptiva y no se usa para entrenar el modelo para evitar fuga de información.
+La variable demora_min es descriptiva y no se utiliza para entrenar el modelo para evitar fuga de información.
 
 ## Resultado de referencia
 
-Con la configuración incluida y random_state=42, el modelo obtiene aproximadamente 93.33 % de accuracy sobre 105 registros de prueba.
+Con la configuración incluida y semilla 42, el modelo obtiene 93.33 % de accuracy sobre 105 registros de prueba.
 
 ## Repositorio
 
