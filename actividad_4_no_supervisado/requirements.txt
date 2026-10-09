@@ -1,0 +1,2 @@
+# No requiere librerias externas.
+# Compatible con Python 3.10 o superior.
