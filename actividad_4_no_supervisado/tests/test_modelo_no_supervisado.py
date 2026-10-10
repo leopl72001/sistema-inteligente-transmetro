@@ -1,15 +1,17 @@
 import csv
-import importlib.util
+import sys
 import unittest
 from pathlib import Path
 
 BASE = Path(__file__).resolve().parents[1]
 DATASET = BASE / "data" / "datos_transmetro_no_supervisado.csv"
-MODELO_PATH = BASE / "src" / "modelo_no_supervisado.py"
+SRC = BASE / "src"
 
-spec = importlib.util.spec_from_file_location("modelo_no_supervisado", MODELO_PATH)
-modelo = importlib.util.module_from_spec(spec)
-spec.loader.exec_module(modelo)
+# Permite importar el modelo directamente al ejecutar este archivo o usar unittest discover.
+if str(SRC) not in sys.path:
+    sys.path.insert(0, str(SRC))
+
+import modelo_no_supervisado as modelo
 
 
 def cargar_filas():
@@ -52,4 +54,4 @@ class TestActividadNoSupervisada(unittest.TestCase):
 
 
 if __name__ == "__main__":
-    unittest.main()
+    unittest.main(verbosity=2)
